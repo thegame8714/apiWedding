@@ -7,7 +7,7 @@ var bodyParser = require('body-parser')
 
 mongoose.Promise = global.Promise
 mongoose.connect(
-  'mongodb://fabioSalimbeni:Fredr4987vs!@ds247838.mlab.com:47838/guestlist'
+  'mongodb://fabiosalimbeni:Fredr4987vs!@ds247838.mlab.com:47838/guestlist'
 )
 
 app.use(bodyParser.urlencoded({ extended: true }))
