@@ -1,0 +1,17 @@
+{
+  "name": "api.giadazanotti.com",
+  "version": "1.0.0",
+  "description": "THe API for the wedding page",
+  "main": "index.js",
+  "author": "Fabio Salimbeni",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "nodemon": "^1.15.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
