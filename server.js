@@ -1,8 +1,11 @@
 var express = require('express')
 var app = express()
+var cors = require('cors')
 var port = process.env.PORT || 3000
 var mongoose = require('mongoose')
 var bodyParser = require('body-parser')
+
+app.use(cors())
 
 mongoose.connect(
   'mongodb://fabiosalimbeni:Fredr4987vs!@ds247838.mlab.com:47838/guestlist'
