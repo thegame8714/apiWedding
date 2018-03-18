@@ -176,7 +176,7 @@ module.exports = [
     code: ''
   },
   {
-    name: 'Deborah Giancarlo Federico Niccolo',
+    name: 'Debora Giancarlo Federico Niccolo',
     confirmed: false,
     plusOne: false,
     specialDiet: '',
