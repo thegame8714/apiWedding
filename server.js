@@ -19,7 +19,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
-
+app.use('/images', express.static('images'))
 var routes = require('./api/routes/giftRoute') //importing route
 routes(app) //register the route
 
